@@ -5,9 +5,9 @@
   </a>
 </div>
 
-- 🔭 Actualmente soy estudiante
+- 🔭 Actualmente soy estudiante.
   
-- 🌱 Estoy estudiando a cerca de Spring boot
+- 🌱 Estoy desarrollo mi propios proyectos.
   
 - 👯 Me gusta desarrollar proyectos desde cero (full-stack)
   
