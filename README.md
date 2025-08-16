@@ -5,15 +5,11 @@
   </a>
 </div>
 
-- 🔭 Actualmente soy estudiante.
+- 💻 Desarrollador en formación con experiencia en **Node.js, Express.js, React** y en proceso de aprendizaje de **Spring Boot**.  
+
+- 🚀 Apasionado por construir proyectos **fullstack** desde cero y profundizar en tecnologías backend y frontend.
   
-- 🌱 Estoy desarrollo mi propios proyectos.
-  
-- 👯 Me gusta desarrollar proyectos desde cero (full-stack)
-  
-- 💬 Mi conocimientos abarcan Postgres, MSSQL, JavaScript, TypeScript, Java, etc.
-  
-- ⚡ Me gusta profundizar en las tecnologías que aprendo para comprenderlas integralmente.
+- 📚 Mis conocimientos abarcan **PostgreSQL, MSSQL, JavaScript, TypeScript, Java**, entre otros.
 
 ### 🛠 &nbsp;Stack Tecnológico
 
