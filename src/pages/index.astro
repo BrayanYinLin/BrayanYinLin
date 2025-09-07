@@ -1,0 +1,27 @@
+---
+import Hero from "../components/Hero.astro";
+import Languages from "../components/Languages.astro";
+import Navbar from "../components/Navbar.astro";
+import Project from "../components/Project.astro";
+import Projects from "../components/Projects.astro";
+import Layout from "../layouts/Layout.astro";
+import "../styles/global.css";
+
+
+---
+
+<Layout title="Brayan Yin Lin" >
+	<main class="max-w-[1000px] mx-auto flex flex-col gap-8 mb-8">
+		<Navbar />
+		<Hero />
+		<Projects>
+			<Project title="Bodegapp Pro" repository="https://github.com/BrayanYinLin/bodegapp-pro">
+				<p class="font-normal text-cold-gray text-wrap">Sistema de gestión de inventario y ventas para PYMEs. Una solución de código abierto construida con React, Node.js, Express y PostgreSQL para digitalizar y optimizar la administración de tu negocio.</p>
+			</Project>
+			<Project title="Quick Shortener" repository="https://github.com/BrayanYinLin/url-shortener-app">
+				<p class="font-normal text-cold-gray text-wrap">Acortador de URLs de código abierto construido con React, Node.js (Express) y PostgreSQL.  Organizado en un monorepo que incluye un frontend moderno y una API REST robusta. Ofrece autenticación con proveedores de OAuth, gestión de enlaces y una interfaz intuitiva.</p>
+			</Project>
+		</Projects>
+		<Languages />
+	</main>
+</Layout>

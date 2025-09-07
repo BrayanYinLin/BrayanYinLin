@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: alexandria;
+    src: url('./alexandria_variablefont_wght.ttf');
+  }
+
+@theme {
+  --color-carnation-50: #fff1f1;
+  --color-carnation-100: #ffe1e1;
+  --color-carnation-200: #ffc7c7;
+  --color-carnation-300: #ffa0a0;
+  --color-carnation-400: #ff5f5f;
+  --color-carnation-500: #f83b3b;
+  --color-carnation-600: #e51d1d;
+  --color-carnation-700: #c11414;
+  --color-carnation-800: #a01414;
+  --color-carnation-900: #841818;
+  --color-carnation-950: #480707;
+
+  --color-cold-gray: #121212;
+  --color-alabaster: #fcfcfc;
+
+  --font-alexandria: "alexandria", system-ui, sans-serif;
+
+  --shadow-solid-base: 3px 3px 0 #000;
+  --shadow-solid-title: 6px 6px 0 #000;
+}

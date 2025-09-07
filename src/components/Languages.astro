@@ -1,0 +1,28 @@
+---
+import LanguageItem from "./LanguageItem.astro";
+
+const languages = [
+  { icon: "/logos/ts-logo.svg", title: "TypeScript" },
+  { icon: "/logos/js-icon.svg", title: "JavaScript" },
+  { icon: "/logos/html-icon.svg", title: "HTML" },
+  { icon: "/logos/css-icon.svg", title: "CSS" },
+  { icon: "/logos/java-icon.svg", title: "Java" },
+  { icon: "/logos/sql-icon.svg", title: "SQL" },
+  { icon: "/logos/uml.svg", title: "UML" },
+];
+---
+
+<div id="lenguages">
+  <h2
+    class="w-max border-2 shadow-solid-base border-black rounded-md px-[15px] py-[10px] bg-carnation-400 text-white text-2xl font-bold"
+  >
+    Lenguajes
+  </h2>
+  <div class="flex my-4 gap-10">
+    {
+      languages.map((item) => (
+        <LanguageItem icon={item.icon} title={item.title} />
+      ))
+    }
+  </div>
+</div>
