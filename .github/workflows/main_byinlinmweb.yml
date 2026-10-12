@@ -27,12 +27,17 @@ jobs:
         run: |
           npm install
           npm run build
+        
+      - name: Prepare deployment package
+        run: |
+          mkdir -p deploy
+          cp -R dist node_modules package.json package-lock.json deploy/
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v4
         with:
           name: byinlinmweb
-          path: dist/
+          path: deploy/
 
   deploy:
     runs-on: ubuntu-latest
@@ -46,7 +51,7 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: byinlinmweb
-          path: dist
+          path: deploy
       
       - name: Login to Azure
         uses: azure/login@v2
@@ -61,5 +66,5 @@ jobs:
         with:
           app-name: 'byinlinmweb'
           slot-name: 'Production'
-          package: dist
+          package: deploy
           
